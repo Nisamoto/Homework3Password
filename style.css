@@ -37,7 +37,7 @@
 #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
-    background-image: url("https://github.com/Nisamoto/Homework3Password/blob/master/paisley.jpg?raw=true");
+    background-image: url("https://github.com/Nisamoto/Homework3Password/blob/master/paisley.jpg");
 }
 .main-section {
     width: 100%;
