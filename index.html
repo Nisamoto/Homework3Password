@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Password Generator</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div id="main-container" class="container"> 
+    <section class="main-section">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mx-auto">
+                    <h1 align="center"><b>Password Generator</b></h1>
+            </div>
+            <div class="content">
+                <h4>Generate a Password</h4>
+                <br>
+                <input type="textarea" id="display">
+                <br>
+                <label>Chosen Length:<Span id="length"><i>8 Characters (min.)</i></Span></label>
+                <br>
+                <input type="range" id="slider" min="8" max="128" value="8">
+                <br>
+                <button onclick="generate()" button type="button" class="btn-danger" style="border-radius:2em;"><b>Generate Password</b></button>
+                <button onclick="copypassword()" button type="button" class="btn-secondary" style="border-radius:2em;"><b>Copy to Clipboard</b></button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

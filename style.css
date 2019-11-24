@@ -1,0 +1,55 @@
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+    background-color: lightgray;
+    padding: 20px;
+}
+.content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: whitesmoke;
+    padding: 20px;
+    width: 100%;
+}
+
+.btn-danger{
+    float: left;
+    width: 30%;
+    height: 15%;
+}
+
+.btn-secondary{
+    float: right;
+    width: 30%;
+    height: 15%;
+}
+
+#display{
+    width: 100%;
+    height: auto;
+    border: 2px gray dashed;
+    padding: 50px;
+}
+
+#main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+    background-image: url(..//HW3Password/assets/paisley.jpg);
+}
+.main-section {
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+}
+@media all and (max-width:30em){
+     .btn btn-danger{
+      display:block;
+      margin:0.2em auto;
+     }
+}
