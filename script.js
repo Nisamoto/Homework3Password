@@ -1,6 +1,3 @@
-function backgroundimg(){
-document.body.style.backgroundImage = "url('https://github.com/Nisamoto/Homework3Password/blob/master/paisley.jpg')";
-}
 let complexity = document.getElementById("slider"); 
 let length = document.getElementById("length");
 
