@@ -37,7 +37,7 @@
 #main-container {
     padding-top: 130px;
     min-height: calc(100vh - 70px);
-    background-image: url(./assets/paisley.jpg);
+    background-image: url('../assets/paisley.jpg');
 }
 .main-section {
     width: 100%;
